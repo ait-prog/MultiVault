@@ -73,8 +73,8 @@
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/multivault.git
-cd multivault
+git clone https://github.com/ait-prog/MultiVault.git
+cd MultiVault
 ```
 
 2. **Install dependencies**
@@ -84,7 +84,7 @@ npm install
 
 3. **Set up environment variables**
 ```bash
-cp .env.example .env.local
+cp env.example .env.local
 ```
 
 4. **Run the development server**
@@ -210,9 +210,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **GitHub**: [@your-username](https://github.com/your-username)
-- **Twitter**: [@your-twitter](https://twitter.com/your-twitter)
-- **Email**: your-email@example.com
+- **GitHub**: [@ait-prog](https://github.com/ait-prog)
+- **Repository**: [MultiVault](https://github.com/ait-prog/MultiVault)
 
 ## 🙏 Acknowledgments
 
