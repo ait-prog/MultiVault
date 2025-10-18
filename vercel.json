@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "installCommand": "npm install --legacy-peer-deps",
+  "env": {
+    "NEXT_PUBLIC_SOLANA_NETWORK": "devnet",
+    "NEXT_PUBLIC_SOLANA_RPC_URL": "https://api.devnet.solana.com",
+    "NEXT_PUBLIC_PROGRAM_ID": "EF9CQ7WfxzUmTpmQxhMv9WFCJoLkyTKniXdDYXaUg5Kh",
+    "NEXT_PUBLIC_WALLET_ADAPTER_NETWORK": "devnet"
+  }
+}
