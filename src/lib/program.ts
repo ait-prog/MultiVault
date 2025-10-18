@@ -37,7 +37,7 @@ export const getProgram = (wallet?: Wallet): MultiVaultProgram => {
       { commitment: 'confirmed' }
     )
 
-    program = new Program(simpleIdl as any, provider)
+    program = new Program(simpleIdl as any, provider as any)
   }
 
   return program
@@ -51,7 +51,7 @@ export const createProgram = (wallet: Wallet): MultiVaultProgram => {
     { commitment: 'confirmed' }
   )
 
-  return new Program(simpleIdl as any, provider)
+  return new Program(simpleIdl as any, provider as any)
 }
 
 // Reset program (for reconnection)
