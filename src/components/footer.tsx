@@ -10,9 +10,9 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">L</span>
+                <span className="text-primary-foreground font-bold text-lg">M</span>
               </div>
-              <span className="font-bold text-xl text-foreground">LuxeShare</span>
+              <span className="font-bold text-xl text-foreground">MultiVault</span>
             </div>
             <p className="text-muted-foreground text-sm">
               Democratizing luxury asset ownership through blockchain technology.
@@ -84,7 +84,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border">
-          <p className="text-center text-muted-foreground text-sm">© 2024 LuxeShare. All rights reserved.</p>
+          <p className="text-center text-muted-foreground text-sm">© 2025 MultiVault. All rights reserved.</p>
         </div>
       </div>
     </footer>
