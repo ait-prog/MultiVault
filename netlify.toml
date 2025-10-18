@@ -1,11 +1,11 @@
 [build]
   command = "npm run build"
   publish = ".next"
-  environment = { ESLINT_NO_DEV_ERRORS = "true" }
 
 [build.environment]
   NODE_VERSION = "18"
   NPM_FLAGS = "--legacy-peer-deps"
+  ESLINT_NO_DEV_ERRORS = "true"
 
 [[redirects]]
   from = "/*"
